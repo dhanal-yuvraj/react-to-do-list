@@ -1,0 +1,113 @@
+/* Global Page */
+body {
+  font-family: "Poppins", sans-serif;
+  background: #f3f6fc;
+  display: flex;
+  justify-content: center;
+  padding-top: 60px;
+}
+
+/* Todo Wrapper */
+div {
+  background: #ffffff;
+  padding: 28px 38px;
+  width: 420px;
+  border-radius: 16px;
+  box-shadow: 0px 6px 22px rgba(0, 0, 0, 0.12);
+  transition: 0.3s ease;
+}
+
+div:hover {
+  transform: translateY(-2px);
+}
+
+/* Input */
+input {
+  width: 100%;
+  border: none;
+  padding: 14px;
+  border-radius: 10px;
+  background: #edf1f7;
+  font-size: 15px;
+  outline: none;
+  transition: 0.25s;
+}
+
+input:focus {
+  background: #e3e8f2;
+  box-shadow: 0 0 0 2px #4b7bfd;
+}
+
+/* Add Button */
+button {
+  margin-top: 12px;
+  width: 100%;
+  padding: 14px;
+  border: none;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  background: #4b7bfd;
+  color: white;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #3b68e3;
+}
+
+/* Header */
+h4 {
+  margin-top: 32px;
+  margin-bottom: 12px;
+  font-size: 18px;
+  text-align: center;
+  color: #404b61;
+}
+
+/* List */
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  background: #eef3ff;
+  padding: 12px 14px;
+  border-radius: 10px;
+  margin-bottom: 12px;
+  font-size: 15px;
+  color: #3d4761;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: 0.25s;
+}
+
+li:hover {
+  background: #dde7ff;
+  transform: scale(1.02);
+}
+
+/* Task Text */
+li span {
+  flex: 1;
+}
+
+/* Delete Button inside list */
+li button {
+  width: auto;
+  padding: 8px 14px;
+  margin-top: 0;
+  font-size: 14px;
+  background: #ff4d4d;
+  border-radius: 8px;
+  font-weight: 600;
+  color: white;
+  transition: 0.25s;
+}
+
+li button:hover {
+  background: #e64040;
+}
